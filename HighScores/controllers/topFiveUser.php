@@ -2,8 +2,7 @@
 
 require_once("../Score.php");
 
-//$password = "Baseball1834!";
-$password = "dennisiscool";
+$password = "***";
 $conn = new mysqli("localhost","root",
     $password,"game_info",3306);
 if($conn->connect_error)
