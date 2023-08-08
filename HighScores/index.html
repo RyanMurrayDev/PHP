@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scores</title>
+    <link href = "css/mystyles.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/myscripts.js" type="text/javascript"></script>
+</head>
+<body>
+<header>Scores</header>
+<h1 id="header1">Get top 10 scores for all users for the given game title</h1><br />
+<form name="form1" id="form1">
+    <label>Game Title: <input type="text" name="gameTitle" id = "gameTitle"/></label><br /><br />
+    <button type="button" value="Send" name="sendButton1" id="sendButton1">Get</button>
+</form>
+<section id="section1"></section>
+<h1 id="header2">Get top 10 scores for the given user for the given game title</h1><br />
+<form name="form2" id="form2">
+    <label>Username: <input type="text" name="username" id = "username"/></label><br /><br />
+    <label>Game Title: <input type="text" name="gameTitle2" id = "gameTitle2"/></label><br /><br />
+    <button type="button" value="Send" name="sendButton2" id="sendButton2">Get</button>
+</form>
+<section id="section2"></section>
+<h1 id="header3">Get top 5 scores for the given user for the given game title
+    (scores will be within the last 8 hrs)</h1><br />
+<form name="form3" id="form3">
+    <label>Username: <input type="text" name="username2" id = "username2"/></label><br /><br />
+    <label>Game Title: <input type="text" name="gameTitle3" id = "gameTitle3"/></label><br /><br />
+    <button type="button" value="Send" name="sendButton3" id="sendButton3">Get</button>
+</form>
+<section id="section3"></section>
+<h1 id="header4">Insert a Score</h1><br />
+<form name="form4" id="form4">
+    <label>Username: <input type="text" name="username3" id = "username3"/></label><br /><br />
+    <label>Game Title: <input type="text" name="gameTitle4" id = "gameTitle4"/></label><br /><br />
+    <label>Score: <input type="text" name="score" id = "score"/></label><br /><br />
+    <button type="button" value="Send" name="sendButton4" id="sendButton4">Insert User</button>
+</form>
+<section id="section4"></section>
+</body>
+</html>

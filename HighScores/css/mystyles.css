@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    font-size: 75px;
+}
+#header1{
+    color: red;
+}
+#header2{
+    color: blue;
+}
+#header3{
+    color: green;
+}
+#header4{
+    color: purple;
+}
+#section1,#section2,#section3, #section4{
+    font-size: 20px;
+}
